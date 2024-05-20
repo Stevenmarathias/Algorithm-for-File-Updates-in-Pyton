@@ -44,3 +44,5 @@ with open(import_file, 'w') as file:
     file.write(ip_addresses_string)
 
 Explanation: '\n'.join(ip_list) combines the list of IP addresses into a single string, each IP address separated by a newline character. Opening the file in 'w' mode allows writing the updated list back to the file.
+
+This Python algorithm automates the process of updating an IP allow list for a company's restricted subnetwork. It involves reading IP addresses from a file, comparing them to a removal list, and then writing the updated list back to the same file. Key operations include file I/O, string manipulation, and list iteration.
